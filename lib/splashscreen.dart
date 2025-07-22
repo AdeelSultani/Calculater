@@ -14,6 +14,7 @@ class _splashState extends State<Splashscreen> {
 
   @override
   void initState() {
+    ///timer function called
     Timer(Duration(seconds: 2), () {
       Navigator.pushReplacement(context,
           MaterialPageRoute(builder: (context) => Caluculaterscreen()));
